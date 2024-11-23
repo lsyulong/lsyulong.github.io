@@ -17,8 +17,8 @@ Gravitino前端使用NodeJS的进行进行构建，需要安装NodeJS环境
 
 windows中node安装参照官网安装即可，目前笔者使用``V22.11.0LTS``，官网下载地址``https://nodejs.org/en/download/package-manager``
 具体请参照官网中命令示意，同时附个人安装截图。
-![官网示例](https://github.com/lsyulong/lsyulong.github.io/blob/master/posts/2024/11/23/2.png)
-![笔者安装截图](https://github.com/lsyulong/lsyulong.github.io/blob/master/posts/2024/11/23/1.png)
+![官网示例](2.png)
+![笔者安装截图](1.png)
 
 ##### 2、python环境安装
 Gravitino支持使用python连接，需要配置python环境，python3.X均可，window的python环境安装可自行上网查找
@@ -27,11 +27,11 @@ Gravitino支持使用python连接，需要配置python环境，python3.X均可�
 目前gravitino会使用不同的JDK版本进行编译构建发布，所以我们需要本地安装多版本JDK，具体安装方式可自行上网查找，
 Gravitino支持``JDK8、11、17``
 java安装成功后可以使用``java -version``查看
-![java安装验证](https://github.com/lsyulong/lsyulong.github.io/blob/master/posts/2024/11/23/4.png)
+![java安装验证](4.png)
 
 ##### 4、gradle安装
 笔者本地环境配置的``gradle8.9``，本地安装成功后使用``gradle -v`` 命令查看是否安装成功
-![gradle安装验证](https://github.com/lsyulong/lsyulong.github.io/blob/master/posts/2024/11/23/3.png)
+![gradle安装验证](3.png)
 
 ##### 5、docker安装
 gravitino的集成测试使用docker镜像来测试的，window可以安装docker desktop，下载地址``https://www.docker.com/products/docker-desktop/``
@@ -134,9 +134,9 @@ at org.gradle.internal.execution.steps.AssignWorkspaceStep.lambda$e
 地址链接参照 ``https://github.com/apache/gravitino/tree/main/web/web`` 当编译完成且格式化代码完成后，退出web目录，进入当前项目的根目录下
 ，开始编译整个项目
 执行如下命令开始编译``./gradlew clean build -x test ``
-![](https://github.com/lsyulong/lsyulong.github.io/blob/master/posts/2024/11/23/5.png)
-![](https://github.com/lsyulong/lsyulong.github.io/blob/master/posts/2024/11/23/6.png)
-![](https://github.com/lsyulong/lsyulong.github.io/blob/master/posts/2024/11/23/7.png)
+![这是图片](5.png)
+![这是图片](6.png)
+![这是图片](7.png)
 
 至此，编译成功，文章后续还会补充更新，同时欢迎各位大佬指教
 
